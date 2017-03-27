@@ -1,0 +1,75 @@
+body{
+	font-family: sans-serif;
+	background-color: #f0ffff;
+}
+h1{
+	font-weight: bold;
+
+}
+h2{
+	font-size: 1.2em;
+	color: rgb(80,80,80);
+}
+h3{
+	font-size: 0.5em;
+	color: rgb(100,100,100);
+}
+p{
+	text-indent: 2em;
+}
+article{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px;
+	background-color: rgb(255, 251, 240);
+
+}
+#p3 img{
+	width: 160px;
+	height: 140px;
+	margin: 5px;
+
+}
+
+#p3 div{
+	padding: 10px;
+	border:solid 1px;
+	margin: 10px;
+	margin-right: 870px;
+}
+#p4 table{
+	width: 100%;
+}
+#p4 table tr th{
+	background-color: rgb(50,50,50);
+	color: rgb(250,250,250);
+}
+#p4 tfoot{
+	background-color: #99BBFF;
+}
+
+form{
+	
+	display: table;
+	padding: 10px;
+	
+}
+
+div .tableRow{
+	display: table-row;
+}
+div.tableRow p:first-child{
+	text-align: right;
+}
+div.tableRow p{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+
+p:heading{
+	font-weight: bold;
+}
